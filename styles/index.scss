@@ -1,15 +1,27 @@
 @import 'variables.scss';
 @import 'breakpoints.scss';
+@import 'common.scss';
+@import 'about.scss';
+@import 'customers.scss';
+@import 'audience.scss';
+@import 'order.scss';
+@import 'footer.scss';
+@import 'header.scss';
+@import 'headline.scss';
+
 
 * {
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Work Sans', sans-serif;
 }
+
 html {
   font-size: 16px;
 }
+
 .page {
   width: 100%;
 
@@ -21,6 +33,7 @@ html {
     min-height: 100vh;
   }
 }
+
 .top-section {
   background-color: #f3c6bd;
 
@@ -30,14 +43,7 @@ html {
     height: 710px;
   }
 }
+
 button {
   cursor: pointer;
 }
-@import 'common.scss';
-@import 'about.scss';
-@import 'customers.scss';
-@import 'audience.scss';
-@import 'order.scss';
-@import 'footer.scss';
-@import 'header.scss';
-@import 'headline.scss';
