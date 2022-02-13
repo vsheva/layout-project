@@ -1,0 +1,43 @@
+@import 'variables.scss';
+@import 'breakpoints.scss';
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+html {
+  font-size: 16px;
+}
+.page {
+  width: 100%;
+
+  @include for-large-up {
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+    margin: auto;
+    min-height: 100vh;
+  }
+}
+.top-section {
+  background-color: #f3c6bd;
+
+  @include for-large-up {
+    background-color: #f3c6bd;
+    padding-top: 39px;
+    height: 710px;
+  }
+}
+button {
+  cursor: pointer;
+}
+@import 'common.scss';
+@import 'about.scss';
+@import 'customers.scss';
+@import 'audience.scss';
+@import 'order.scss';
+@import 'footer.scss';
+@import 'header.scss';
+@import 'headline.scss';

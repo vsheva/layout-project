@@ -1,0 +1,40 @@
+.about {
+  padding: 46px 15px;
+  width: 100%;
+  background-color: $color-light;
+  @include for-large-up {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    padding: 77px 130px 76px 130px;
+    margin: auto;
+  }
+}
+
+.article {
+  &:last-child {
+    margin-top: 20px;
+    @include for-large-up {
+      margin-top: 0;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+  &__text {
+    margin-top: 6px;
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 0;
+  }
+
+  @include for-large-up {
+    width: 555px;
+    height: 102px;
+  }
+}

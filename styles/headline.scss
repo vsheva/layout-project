@@ -1,0 +1,103 @@
+.headline {
+  width: 100%;
+
+  &__title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.3125px;
+    color: $text-dark;
+
+    @include for-large-up {
+      margin: 0;
+      width: 754px;
+      height: 165px;
+      font-size: 80px;
+      line-height: 78px;
+      letter-spacing: -0.5;
+      z-index: 1;
+    }
+  }
+
+  &__content {
+    margin: 35px 15px 33px 15px;
+
+    @include for-large-up {
+      position: absolute;
+      z-index: 1;
+      margin: 0;
+    }
+  }
+
+  &-description {
+    margin-top: 24px;
+    margin-bottom: 0;
+    width: 100%;
+    font-size: 24px;
+    line-height: 34px;
+    z-index: 1;
+
+    @include for-large-up {
+      margin-top: 34px;
+      margin-bottom: 0;
+      height: 102px;
+      width: 456px;
+      z-index: 1;
+    }
+  }
+
+  &__actions {
+    margin-top: 30px;
+
+    @include for-large-up {
+      display: flex;
+      margin-top: 58px;
+      margin-bottom: 126px;
+    }
+  }
+
+  &__learn-more-btn {
+    width: 160px;
+    height: 48px;
+    color: $text-color-blue-second;
+    background-color: $color-white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 2px;
+    border: none;
+    margin-top: 15px;
+
+    @include for-large-up {
+      margin-left: 10px;
+      margin-top: 0;
+    }
+  }
+
+  &__banner {
+    width: 100%;
+    margin-bottom: 36px;
+
+    @include for-large-up {
+      position: relative;
+      right: -105px;
+      top: 0;
+      width: 796px;
+      height: 448px;
+      margin-left: auto;
+    }
+  }
+
+  @include for-large-up {
+    display: flex;
+    position: relative;
+    width: 1140px;
+    margin: auto;
+    margin-top: 81px;
+  }
+
+  @include for-large-down {
+    &__actions &__action-btn {
+      width: 100%;
+    }
+  }
+}
