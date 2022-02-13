@@ -29,8 +29,8 @@ html {
   @include for-large-up {
     display: flex;
     flex-direction: column;
-    width: 1400px;
-    margin: auto;
+    max-width: 1400px;
+    margin:0 auto;
     min-height: 100vh;
   }
 }
