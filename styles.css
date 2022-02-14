@@ -743,10 +743,12 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
 html {
   font-size: 16px;
-  font-family: "Work Sans", sans-serif;
-  color: #2b292d;
 }
 
 .page {
@@ -756,7 +758,7 @@ html {
   .page {
     display: flex;
     flex-direction: column;
-    max-width: 1400px;
+    width: 1400px;
     margin: auto;
     min-height: 100vh;
     margin-bottom: 0;
