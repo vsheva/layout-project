@@ -7,14 +7,17 @@
     line-height: 50px;
     letter-spacing: -0.3125px;
     color: $text-dark;
+    //margin-bottom: 0px;
+    margin-bottom: 0px;
 
     @include for-large-up {
-      margin: 0;
+      //margin: 0;
+      margin-top: 0;
       width: 754px;
       height: 165px;
       font-size: 80px;
       line-height: 78px;
-      letter-spacing: -0.5;
+      letter-spacing: -0.5px;
       z-index: 1;
     }
   }
@@ -40,6 +43,8 @@
       margin-bottom: 0;
       height: 102px;
       width: 456px;
+      //font-size: 24px;
+      font-size: 24px;
       z-index: 1;
     }
   }
@@ -50,12 +55,13 @@
     @include for-large-up {
       display: flex;
       margin-top: 58px;
-      margin-bottom: 126px;
+      //margin-bottom: 126px;
     }
   }
 
   &__learn-more-btn {
-    width: 160px;
+    //width: 160px;
+    min-width: 158px;
     height: 48px;
     color: $text-color-blue-second;
     background-color: $color-white;

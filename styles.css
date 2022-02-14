@@ -659,15 +659,16 @@
   line-height: 50px;
   letter-spacing: -0.3125px;
   color: #2b292d;
+  margin-bottom: 0px;
 }
 @media screen and (min-width: 1400px) {
   .headline__title {
-    margin: 0;
+    margin-top: 0;
     width: 754px;
     height: 165px;
     font-size: 80px;
     line-height: 78px;
-    letter-spacing: -0.5;
+    letter-spacing: -0.5px;
     z-index: 1;
   }
 }
@@ -695,6 +696,7 @@
     margin-bottom: 0;
     height: 102px;
     width: 456px;
+    font-size: 24px;
     z-index: 1;
   }
 }
@@ -705,11 +707,10 @@
   .headline__actions {
     display: flex;
     margin-top: 58px;
-    margin-bottom: 126px;
   }
 }
 .headline__learn-more-btn {
-  width: 160px;
+  min-width: 158px;
   height: 48px;
   color: #3040c4;
   background-color: #ffffff;
@@ -776,6 +777,7 @@ html {
     width: 1400px;
     margin: auto;
     min-height: 100vh;
+    margin-bottom: 0;
   }
 }
 
