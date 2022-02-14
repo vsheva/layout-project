@@ -11,6 +11,7 @@
     margin-bottom: 0px;
 
     @include for-large-up {
+      //margin: 0;
       margin-top: 0;
       width: 754px;
       height: 165px;

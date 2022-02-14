@@ -13,6 +13,7 @@
 
   &__details {
 
+
     @include for-large-up {
       text-align: left;
       width: 555px;
@@ -77,7 +78,6 @@
     //  color: $color-dark;
     //}
   }
-
   &__button {
     margin-top: 12px;
 
@@ -91,7 +91,6 @@
       flex-shrink: 0;
     }
   }
-
   &__terms {
     font-size: 14px;
     line-height: 22px;
@@ -102,10 +101,6 @@
     color: $text-color-blue;
   }
 }
-
-
-
-
 
 
 
