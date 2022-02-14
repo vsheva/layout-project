@@ -647,6 +647,7 @@
 
 .headline {
   width: 100%;
+  padding: 15px;
 }
 .headline__title {
   font-weight: 700;
@@ -654,6 +655,7 @@
   line-height: 50px;
   letter-spacing: -0.3125px;
   color: #2b292d;
+  margin: 0;
 }
 @media screen and (min-width: 1400px) {
   .headline__title {
@@ -677,7 +679,7 @@
   }
 }
 .headline-description {
-  margin-top: 24px;
+  margin-top: 26px;
   margin-bottom: 0;
   width: 100%;
   font-size: 24px;
