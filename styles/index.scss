@@ -14,12 +14,17 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Work Sans', sans-serif;
-}
+//body {
+//  font-family: 'Work Sans', sans-serif;
+//}
+
+
 
 html {
   font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+  color: $text-dark;
+
 }
 
 .page {
@@ -28,10 +33,9 @@ html {
   @include for-large-up {
     display: flex;
     flex-direction: column;
-    width: 1400px;
+    max-width: 1400px;
     margin: auto;
     min-height: 100vh;
-    //margin-bottom: 0;
     margin-bottom: 0;
   }
 }
