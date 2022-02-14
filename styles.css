@@ -246,78 +246,68 @@
 .order {
   padding: 50px 15px;
   background-color: #f4f5f7;
-  text-align: center;
 }
 @media screen and (min-width: 1400px) {
   .order {
-    padding: 73px 130px 72px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    padding: 73px 0 72px;
   }
 }
-@media screen and (min-width: 1400px) {
-  .order__details {
-    text-align: left;
-    width: 555px;
-  }
+.order__details {
+  max-width: 555px;
+  margin: auto;
+}
+.order__ilustration {
+  min-width: 200px;
+  margin: auto;
+  display: block;
 }
 @media screen and (min-width: 1400px) {
-  .order__div-for-illustration {
-    width: 270px;
-    margin-right: 121.5px;
-  }
-}
-.order__illustration {
-  max-width: 200px;
-}
-@media screen and (min-width: 1400px) {
-  .order__illustration {
+  .order__ilustration {
     max-width: 269px;
     margin-right: 121px;
   }
 }
 .order__title {
   margin-top: 40px;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 40px;
   line-height: 40px;
+  text-align: center;
   letter-spacing: -0.25px;
 }
 .order__text {
-  font-size: 22px;
-  line-height: 32px;
-  color: #2b292d;
   margin: 0;
   margin-top: 18px;
+  font-size: 22px;
+  line-height: 32px;
 }
-@media screen and (min-width: 1400px) {
-  .order__form {
-    display: flex;
-    margin-top: 26px;
-  }
+.order__form {
+  display: flex;
+  margin-top: 26px;
 }
 .order__email {
   margin-top: 40px;
-  background: #fff;
-  border: 1px solid #2b292d33;
-  border-radius: 2px;
   height: 48px;
   width: 100%;
+  background: #ffffff;
+  border: 1px solid #2b292d33;
+  border-radius: 2px;
   text-align: center;
-  font-size: 18px;
-  line-height: 13px;
+}
+.order__email::placeholder {
+  color: #2b292d;
 }
 @media screen and (min-width: 1400px) {
   .order__email {
     margin-top: 0;
   }
 }
-.order__email::placeholder {
-  color: #2b292d;
-}
 .order__button {
   margin-top: 12px;
+  flex-shrink: 0;
 }
 @media screen and (max-width: 1399px) {
   .order__button {
@@ -328,10 +318,10 @@
   .order__button {
     margin-top: 0;
     margin-left: 10px;
-    flex-shrink: 0;
   }
 }
 .order__terms {
+  margin-top: 10px;
   font-size: 14px;
   line-height: 22px;
   color: #2b292d99;

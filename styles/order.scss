@@ -1,34 +1,23 @@
 .order {
   padding: 50px 15px;
-  background-color: #f4f5f7;
-
-  text-align: center;
+  background-color: $color-light;
 
   @include for-large-up {
-    padding: 73px 130px 72px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    padding: 73px 0 72px;
   }
 
   &__details {
-
-
-    @include for-large-up {
-      text-align: left;
-      width: 555px;
-    }
+    max-width: 555px;
+    margin: auto;
   }
 
-  &__div-for-illustration {
-    @include for-large-up {
-      width: 270px;
-      margin-right: 121.5px;
-    }
-  }
-
-  &__illustration {
-    max-width: 200px;
+  &__ilustration {
+    min-width: 200px;
+    margin: auto;
+    display: block;
 
     @include for-large-up {
       max-width: 269px;
@@ -38,48 +27,46 @@
 
   &__title {
     margin-top: 40px;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 40px;
     line-height: 40px;
+    text-align: center;
     letter-spacing: -0.25px;
   }
 
   &__text {
-    font-size: 22px;
-    line-height: 32px;
-    color: #2b292d;
     margin: 0;
     margin-top: 18px;
+    font-size: 22px;
+    line-height: 32px;
   }
 
   &__form {
-    @include for-large-up {
-      display: flex;
-      margin-top: 26px;
-    }
+    display: flex;
+    margin-top: 26px;
   }
 
   &__email {
     margin-top: 40px;
-    background: #fff;
-    border: 1px solid #2b292d33;
-    border-radius: 2px;
     height: 48px;
     width: 100%;
+    background: $color-white;
+    border: 1px solid $border-color;
+    border-radius: 2px;
     text-align: center;
-    font-size: 18px;
-    line-height: 13px;
+
+    &::placeholder {
+      color: $text-dark;
+    }
 
     @include for-large-up {
       margin-top: 0;
     }
-
-    &::placeholder {
-      color: #2b292d;
-    }
   }
+
   &__button {
     margin-top: 12px;
+    flex-shrink: 0;
 
     @include for-large-down {
       width: 100%;
@@ -88,16 +75,17 @@
     @include for-large-up {
       margin-top: 0;
       margin-left: 10px;
-      flex-shrink: 0;
     }
   }
+
   &__terms {
+    margin-top: 10px;
     font-size: 14px;
     line-height: 22px;
-    color: #2b292d99;
-  }
+    color: $text-color-light-grey;
 
-  &__terms-link {
-    color: #3142c6;
+    &-link {
+      color: $text-color-blue;
+    }
   }
 }
