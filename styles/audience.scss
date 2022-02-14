@@ -92,13 +92,13 @@
     inset 0px 1px 0px rgba(255, 255, 255, 0.1);
     border-radius: 8px;
 
-    //&:hover {
-    //  background-color: $text-color-blue;
-    //
-    //  .audience__card-caption {
-    //    color: $color-white;
-    //  }
-    //}
+    &:hover {
+      background-color: $text-color-blue;
+
+      .audience__card-caption {
+        color: $color-white;
+      }
+    }
 
     &:first-child {
       margin-top: 40px;
