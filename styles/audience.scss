@@ -3,7 +3,8 @@
   background: $color-aqua-light;
 
   @include for-large-up {
-    padding: 108px 131px 110px 130px;
+    //padding: 108px 131px 110px 130px;
+    padding: 108px 0 110px;
   }
 
   &__subtitle {
