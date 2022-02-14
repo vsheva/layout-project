@@ -33,7 +33,6 @@
     text-align: center;
     letter-spacing: -0.25px;
   }
-
   &__text {
     margin: 0;
     margin-top: 18px;
@@ -45,7 +44,6 @@
     display: flex;
     margin-top: 26px;
   }
-
   &__email {
     margin-top: 40px;
     height: 48px;
@@ -63,7 +61,6 @@
       margin-top: 0;
     }
   }
-
   &__button {
     margin-top: 12px;
     flex-shrink: 0;
@@ -77,13 +74,11 @@
       margin-left: 10px;
     }
   }
-
   &__terms {
     margin-top: 10px;
     font-size: 14px;
     line-height: 22px;
     color: $text-color-light-grey;
-
     &-link {
       color: $text-color-blue;
     }
