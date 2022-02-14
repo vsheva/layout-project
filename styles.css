@@ -115,12 +115,14 @@
 }
 
 .audience {
+  width: 100%;
   padding: 50px 15px;
   background: #00a1c612;
+  text-align: center;
 }
 @media screen and (min-width: 1400px) {
   .audience {
-    padding: 108px 131px 110px 130px;
+    padding: 108px 0 110px;
   }
 }
 .audience__subtitle {

@@ -1,9 +1,14 @@
 .audience {
+  width: 100%;
+  //width: 100%;
   padding: 50px 15px;
   background: $color-aqua-light;
+  text-align: center;
+  //text-align: center;
 
   @include for-large-up {
-    padding: 108px 131px 110px 130px;
+    //padding: 108px 131px 110px 130px;
+    padding: 108px 0 110px;
   }
 
   &__subtitle {
