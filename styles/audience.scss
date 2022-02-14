@@ -1,14 +1,9 @@
 .audience {
-  width: 100%;
-  //width: 100%;
   padding: 50px 15px;
   background: $color-aqua-light;
-  text-align: center;
-  //text-align: center;
 
   @include for-large-up {
-    //padding: 108px 131px 110px 130px;
-    padding: 108px 0 110px;
+    padding: 108px 131px 110px 130px;
   }
 
   &__subtitle {
@@ -77,10 +72,15 @@
   }
 
   &__cards {
+    margin-top: 40px;
+    //margin-top: 40px;
     @include for-large-up {
       display: flex;
-      margin: auto;
-      margin-top: 129px;
+      justify-content: center;
+      margin-bottom: 110px;
+      margin-top: 111px;
+      //margin: auto;
+      //margin-top: 129px;
 
       //margin-bottom: 110px;
     }

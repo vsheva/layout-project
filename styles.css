@@ -115,14 +115,12 @@
 }
 
 .audience {
-  width: 100%;
   padding: 50px 15px;
   background: #00a1c612;
-  text-align: center;
 }
 @media screen and (min-width: 1400px) {
   .audience {
-    padding: 108px 0 110px;
+    padding: 108px 131px 110px 130px;
   }
 }
 .audience__subtitle {
@@ -188,11 +186,15 @@
     width: 100%;
   }
 }
+.audience__cards {
+  margin-top: 40px;
+}
 @media screen and (min-width: 1400px) {
   .audience__cards {
     display: flex;
-    margin: auto;
-    margin-top: 129px;
+    justify-content: center;
+    margin-bottom: 110px;
+    margin-top: 111px;
   }
 }
 .audience__card {
