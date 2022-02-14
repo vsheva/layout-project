@@ -190,7 +190,8 @@
   .audience__cards {
     display: flex;
     margin: auto;
-    margin-top: 135px;
+    margin-top: 129px;
+    margin-bottom: 110px;
   }
 }
 .audience__card {
