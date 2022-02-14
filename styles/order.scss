@@ -18,6 +18,8 @@
     min-width: 200px;
     margin: auto;
     display: block;
+    margin-left: 224px;
+    margin-bottom:72px;
 
     @include for-large-up {
       max-width: 269px;
