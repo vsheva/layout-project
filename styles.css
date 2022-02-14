@@ -206,6 +206,26 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
 }
+.audience__card:hover {
+  background-color: #3142c6;
+}
+.audience__card:hover .audience__card-caption {
+  color: #ffffff;
+}
+.audience__card:first-child {
+  margin-top: 40px;
+}
+@media screen and (min-width: 1400px) {
+  .audience__card:first-child {
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .audience__card:nth-child(3) {
+    margin-left: 31px;
+  }
+}
 .audience__card-caption {
   margin-top: 22px;
   font-weight: bold;
