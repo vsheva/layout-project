@@ -1,7 +1,5 @@
 .headline {
   width: 100%;
-  padding: 15px;
-  //padding: 15px;
 
   &__title {
     font-weight: 700;
@@ -9,10 +7,6 @@
     line-height: 50px;
     letter-spacing: -0.3125px;
     color: $text-dark;
-    margin:0;
-    //margin:0;
-
-
 
     @include for-large-up {
       margin: 0;
@@ -34,8 +28,7 @@
     }
   }
   &-description {
-    //margin-top: 24px;
-    margin-top: 26px;
+    margin-top: 24px;
     margin-bottom: 0;
     width: 100%;
     font-size: 24px;
