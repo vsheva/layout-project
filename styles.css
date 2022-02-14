@@ -13,8 +13,8 @@
 .action-button-white {
   width: 160px;
   height: 48px;
-  color: #ffffff;
-  background-color: #3040c4;
+  color: #3040c4;
+  background-color: #ffffff;
   padding: 0;
   font-size: 18px;
   font-weight: 700;
@@ -190,7 +190,7 @@
   .audience__cards {
     display: flex;
     margin: auto;
-    margin-top: 131px;
+    margin-top: 129px;
   }
 }
 .audience__card {
@@ -246,71 +246,68 @@
 .order {
   padding: 50px 15px;
   background-color: #f4f5f7;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 @media screen and (min-width: 1400px) {
   .order {
-    padding: 73px 0px 72px 0px;
+    display: flex;
+    justify-content: center;
     align-items: flex-start;
-    flex-direction: row;
+    padding: 73px 0 72px;
   }
 }
 .order__details {
   max-width: 555px;
+  margin: auto;
 }
-.order__illustration {
-  max-width: 200px;
+.order__ilustration {
+  min-width: 200px;
+  margin: auto;
+  display: block;
 }
 @media screen and (min-width: 1400px) {
-  .order__illustration {
+  .order__ilustration {
     max-width: 269px;
     margin-right: 121px;
   }
 }
 .order__title {
-  font-weight: 700;
+  margin-top: 40px;
+  font-weight: bold;
   font-size: 40px;
   line-height: 40px;
-  letter-spacing: -0.357143;
-  margin-top: 40px;
+  text-align: center;
+  letter-spacing: -0.25px;
 }
 .order__text {
-  font-size: 24px;
-  line-height: 34px;
   margin: 0;
   margin-top: 18px;
+  font-size: 22px;
+  line-height: 32px;
 }
-@media screen and (min-width: 1400px) {
-  .order__form {
-    display: flex;
-    flex-grow: 1;
-    margin-top: 26px;
-  }
+.order__form {
+  display: flex;
+  margin-top: 26px;
 }
 .order__email {
   margin-top: 40px;
-  background-color: #ffffff;
-  border: 1px solid #2B292D33;
-  border-radius: 2px;
   height: 48px;
   width: 100%;
+  background: #ffffff;
+  border: 1px solid #2b292d33;
+  border-radius: 2px;
   text-align: center;
-  font-size: 18px;
-  line-height: 13px;
+}
+.order__email::placeholder {
+  color: #2b292d;
 }
 @media screen and (min-width: 1400px) {
   .order__email {
-    margin-top: 0px;
+    margin-top: 0;
   }
-}
-.order__email::placeholder {
-  color: #2B292D;
 }
 .order__button {
   margin-top: 12px;
+  flex-shrink: 0;
 }
 @media screen and (max-width: 1399px) {
   .order__button {
@@ -319,18 +316,18 @@
 }
 @media screen and (min-width: 1400px) {
   .order__button {
-    margin-top: 0px;
+    margin-top: 0;
     margin-left: 10px;
-    flex-shrink: 0;
   }
 }
 .order__terms {
+  margin-top: 10px;
   font-size: 14px;
   line-height: 22px;
   color: #2b292d99;
 }
 .order__terms-link {
-  color: #3142C6;
+  color: #3142c6;
 }
 
 .footer {
@@ -770,10 +767,9 @@ html {
   .page {
     display: flex;
     flex-direction: column;
-    max-width: 1400px;
+    width: 1400px;
     margin: auto;
     min-height: 100vh;
-    justify-content: space-between;
   }
 }
 
@@ -790,14 +786,6 @@ html {
 
 button {
   cursor: pointer;
-  height: 48px;
-  width: 160px;
-  padding: 0;
-  margin: 0;
-  font-size: 18px;
-  font-weight: bold;
-  border: none;
-  border-radius: 2px;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -10,7 +10,6 @@
 @import 'headline.scss';
 
 
-
 * {
   box-sizing: border-box;
 }
@@ -29,10 +28,9 @@ html {
   @include for-large-up {
     display: flex;
     flex-direction: column;
-    max-width: 1400px;
+    width: 1400px;
     margin: auto;
     min-height: 100vh;
-    justify-content: space-between;
   }
 }
 
@@ -48,12 +46,4 @@ html {
 
 button {
   cursor: pointer;
-  height: 48px;
-  width: 160px;
-  padding: 0;
-  margin: 0;
-  font-size: 18px;
-  font-weight: bold;
-  border: none;
-  border-radius: 2px;
 }

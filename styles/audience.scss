@@ -14,6 +14,7 @@
     text-align: center;
     color: $text-dark;
   }
+
   &__title {
     margin: auto;
     margin-top: 24px;
@@ -31,6 +32,7 @@
       letter-spacing: -0.5px;
     }
   }
+
   &__text {
     max-height: 136px;
     margin-top: 18px;
@@ -54,6 +56,7 @@
       width: 330px;
     }
   }
+
   &__action-btn {
     &:last-child {
       margin-top: 10px;
@@ -62,15 +65,17 @@
         margin-left: 10px;
       }
     }
+
     @include for-large-down {
       width: 100%;
     }
   }
+
   &__cards {
     @include for-large-up {
       display: flex;
       margin: auto;
-      margin-top: 131px;
+      margin-top: 129px;
     }
   }
 
@@ -83,8 +88,10 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
     inset 0px 1px 0px rgba(255, 255, 255, 0.1);
     border-radius: 8px;
+
     &:hover {
       background-color: $text-color-blue;
+
       .audience__card-caption {
         color: $color-white;
       }
@@ -97,6 +104,7 @@
         margin-left: 0;
       }
     }
+
     &:nth-child(3) {
       @include for-large-up {
         margin-left: 31px;
@@ -111,12 +119,14 @@
       text-align: center;
       color: $text-dark;
     }
+
     @include for-large-up {
       width: 262px;
       margin-top: 0;
       margin-left: 30px;
     }
   }
+
   &__img {
     margin: auto;
     margin-top: 22px;
