@@ -7,11 +7,9 @@
     line-height: 50px;
     letter-spacing: -0.3125px;
     color: $text-dark;
-    //margin-bottom: 0px;
     margin-bottom: 0px;
 
     @include for-large-up {
-      //margin: 0;
       margin-top: 0;
       width: 754px;
       height: 165px;
@@ -43,7 +41,6 @@
       margin-bottom: 0;
       height: 102px;
       width: 456px;
-      //font-size: 24px;
       font-size: 24px;
       z-index: 1;
     }
