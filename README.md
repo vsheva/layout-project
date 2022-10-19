@@ -1,6 +1,6 @@
 <h1> Layout Project 1</h1>
 <hr>
-<h2> <a href="https://vsheva.github.io/layout-project-1/">Site link</a></h2>
+<h2> <a href="layout-foundation.netlify.app">Site link</a></h2>
 <h3>The tech stack is:</h3>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/HTML5">HTML5</a></li>
